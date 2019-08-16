@@ -1,0 +1,292 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.landing-container {
+
+  background-image: url(images/bg-hero-desktop.svg);
+  background-color: #EEFDFF;
+  width: 100%;
+}
+
+.top-container  {
+  position: relative;
+}
+.logo  {
+  width: 13%;
+  height: 7%;
+  margin-left: 4%;
+  margin-top: 5.5%;
+  margin-bottom: 1%;
+}
+
+
+.boton-top  {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 1px 1px 8px #BCCCD8;
+  font-weight: 700;
+  padding: 13px 60px;
+  border-radius: 60px;
+  border-style: none;
+  position: absolute;
+  right: 5.5%;
+  bottom: 10%;
+}
+
+.boton-top:hover{
+  background-color: #292E2E;
+  color: white;
+}
+
+/* SLOGAN PART  */
+.slogan  {
+  margin-left:7%;
+  margin-top: 22%;
+}
+
+.slogan-title  {
+  width: 70%;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.slogan-desc  {
+  margin-left: 1%;
+  margin-top: 5%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  width: 75%;
+
+}
+
+.slogan-button  {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 1px 1px 8px #BCCCD8;
+  font-weight: 700;
+  padding: 13px 60px;
+  border-radius: 60px;
+  border-style: none;
+
+  margin-top: 5%;
+}
+
+.slogan-button:hover  {
+  background-color: #FB75EC;
+}
+.slogan-image  {
+  width: 90%;
+  margin-top: 7%;
+  margin-bottom: 8%;
+}
+
+.features{
+  margin-top: 13%;
+}
+/* grow together section */
+
+.feat-row{
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px #DFDFDF;
+  width: 85%;
+  margin: 3% auto 0 auto;
+}
+
+.grow-t-title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  width: 35%;
+  padding-top: 10%;
+  padding-left: 7%;
+  font-size: 2rem;
+  color: #32454D;
+}
+
+.grow-t-desc{
+  width: 40%;
+  padding-top: 1%;
+  padding-left: 7%;
+  padding-bottom: 10%;
+  color: #979C9E;
+  font-weight: 500;
+}
+.grow-img  {
+  margin-top: 2%;
+  width: 33%;
+  float: right;
+  margin-right: 2%;
+}
+
+
+/* flow */
+.flow-img {
+  margin-top: 4%;
+  width: 25%;
+  float: left;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+
+.flow-c-title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  width: 70%;
+  font-size: 2rem;
+  color: #32454D;
+  position: relative;
+  left: 25%;
+  padding-top: 7%;
+}
+
+.flow-c-desc  {
+  width: 50%;
+  color: #979C9E;
+  font-weight: 500;
+  position: relative;
+  left: 25%;
+  padding-top: 1%;
+  padding-bottom: 5%;
+}
+
+
+/*YOUR USERS*/
+.your-img{
+  width: 28%;
+  float: right;
+  padding-right: 3%;
+  padding-top: 3%;
+}
+
+.your-title  {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  width: 70%;
+  font-size: 2rem;
+  color: #32454D;
+  padding-top: 7%;
+  padding-left: 7%;
+}
+
+.your-desc  {
+  width:40%;
+  color: #979C9E;
+  font-weight: 500;
+  padding-left: 7%;
+  padding-top: 1%;
+  padding-bottom: 7%;
+}
+
+
+/*C2A*/
+
+.C2A  {
+  margin-top: 2%;
+  text-align: center;
+  position: relative;
+
+}
+
+.c2a-wrap{
+  background-color: white;
+  width: 50%;
+  box-shadow: 1px 1px 10px #6F6F6F;
+  border-radius: 15px;
+  margin: 0 auto 0 auto;
+  position: relative;
+  top: 7rem;
+  z-index: 2;
+}
+
+
+.c2a-title  {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  padding-top: 8%;
+  padding-bottom: 4%;
+}
+
+
+.c2a-button  {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 1px 1px 8px #BCCCD8;
+  font-weight: 700;
+  padding: 20px 80px;
+  border-radius: 60px;
+  border-style: none;
+  margin-bottom: 7%;
+}
+
+.c2a-button:hover  {
+  background-color: #FB75EC;
+}
+
+/*footer*/
+
+footer{
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  padding-top: 13%;
+
+}
+
+.fotter-cont{
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+.row-img-first  {
+  display: inline-block;
+  position: relative;
+  top: 22px;
+}
+.text-first-row  {
+  display: inline-block;
+  padding-left: 17%;
+}
+.row-img  {
+  margin-right: 7%;
+}
+
+.inner-row  {
+  margin-bottom: 9%;
+}
+
+
+
+.mt-2  {
+  margin-top: 3%;
+}
+
+.pt-2{
+  padding-top: 2%;
+}
+
+
+.self-info  {
+
+  padding-left: 10%;
+}
+
+
+.icon  {
+  font-size: 16px;
+}
+
+
+
+.water-mark  {
+  margin-top: 5%;
+  margin-right: 5%;
+  text-align: right;
+  font-size: 12px;
+  color: #A0C1C3;
+}
